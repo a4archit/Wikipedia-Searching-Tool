@@ -11,6 +11,7 @@ The aim of this project is to fetch and display information from Wikipedia using
   - Python (almost 70%)
   - Python Librarie(s):
     - Wikipedia
+    - Pyttsx3
       
 - **Technologies:** 
   - Django
