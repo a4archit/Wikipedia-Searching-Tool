@@ -9,7 +9,7 @@ The aim of this project is to fetch and display information from Wikipedia using
 - **Languages:** 
   - HTML (almost 28%)
   - Python (almost 70%)
-  - Python Librarie(s):
+  - Python Libraries:
     - Wikipedia
     - Pyttsx3
       
