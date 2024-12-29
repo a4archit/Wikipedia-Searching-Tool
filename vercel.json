@@ -1,0 +1,18 @@
+{
+    "builds": [{
+        "src": "WikipediaSearchTool/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.12.3" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "WikipediaSearchTool/wsgi.py"
+        }
+    ],
+      "functions": {
+        "app_directory/wsgi.py": {
+          "maxDuration": 60
+    }
+  }
+}
